@@ -20,7 +20,10 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: ['javascript-typescript', 'python']
+        language: javascript-typescript
+        build-mode: none
+        language: python
+        build-mode: none
 
 
     steps:
